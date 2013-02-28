@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="de.heilmannsoftware.testapp" versionCode="1" version="0.0.1">
+  <!-- versionCode is optional and Android only -->
+
+  <name>Heilmann Software Test App</name>
+  <description>Just a test for using phonegap and angular.js</description>
+  <author email="sbilharz@heilmannsoftware.de">Stefan Bilharz</author>
+
+</widget>
