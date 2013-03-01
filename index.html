@@ -1,9 +1,11 @@
-<html>
+<html ng-app="TestApp">
   <head>
     <title>My first phonegap iPhone app</title>
     <script src="cordova-2.3.0.js"></script>
+    <script src="angular.js"></script>
+    <script src="testapp.js"></script>
     <script>
-      document.onDeviceReady(function () {
+      window.onDeviceReady(function () {
         alert('Test');
       });
     </script>
@@ -11,5 +13,6 @@
   <body>
     <h1>Heilmann Software</h1>
     <p>ist toll</p>
+    <div ng-view></div>
   </body>
 </html>
